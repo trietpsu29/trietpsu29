@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # metrics.svg: GitHub profile only
+      # First metrics file: GitHub profile stats
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
@@ -22,7 +22,6 @@ jobs:
           config_display: large
           config_timezone: Asia/Ho_Chi_Minh
 
-          # GitHub activity
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
@@ -30,7 +29,6 @@ jobs:
           plugin_activity_load: 300
           plugin_activity_visibility: all
 
-          # GitHub languages
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
@@ -43,36 +41,26 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          # GitHub lines history
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
 
-      # code.svg: LeetCode + WakaTime combined
+
+      # Second metrics file: LeetCode only
       - uses: lowlighter/metrics@latest
         with:
-          filename: code.svg
+          filename: leetcode.svg
           token: NOT_NEEDED
 
           user: trietpsu29
           template: classic
           base: ""
           config_timezone: Asia/Ho_Chi_Minh
-
-          # LeetCode stats
+          
           plugin_leetcode: yes
           plugin_leetcode_user: trietpsu29
           plugin_leetcode_sections: solved
           plugin_leetcode_limit_skills: 10
           plugin_leetcode_ignore_skills: hash table, string, divide and conquer, fundamental
           plugin_leetcode_limit_recent: 2
-
-          # WakaTime stats
-          plugin_wakatime: yes
-          plugin_wakatime_days: 7
-          plugin_wakatime_limit: 5
-          plugin_wakatime_repositories_visibility: public
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_url: https://wakatime.com
-          plugin_wakatime_user: trietpsu29
