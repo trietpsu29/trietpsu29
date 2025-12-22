@@ -37,7 +37,7 @@
 These generated metrics comes with ABSOLUTELY NO
 WARRANTY, to the extent permitted by applicable law.
 
-Last generated: 22 Dec 2025, 23:11:56
+Last generated: 23 Dec 2025, 00:09:31
 </div>
 <div class="stdin"><span class="ps1-path">trietpsu29@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>Triet Do</b> registered=3y, uid=4221, gid=2
   contributed to 36 repositories <b><span style="color:#216e39">#</span><span style="color:#216e39">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span><span style="color:#ebedf0">#</span></b>
@@ -56,26 +56,26 @@ Last generated: 22 Dec 2025, 23:11:56
   <b>    0</b> repositories starred
   <b>    6</b> repositories watched
 </div>
-<div class="stdin"><span class="ps1-path">trietpsu29@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 36 repositories - 607 MB
+<div class="stdin"><span class="ps1-path">trietpsu29@metrics</span>:<span class="ps1-location">~</span># ls -lh github/repositories</div><div class="stdout">Total 36 repositories - 619 MB
 -r--  <b>    1</b>  stargazer
 -r--  <b>    0</b>  forks
 -r--  <b>    6</b>  watchers
 dr-x  <b>    0</b>  packages
 
-<span class="diff">@@ -27.1k +68.2k @@</span>
+<span class="diff">@@ -26.8k +57.7k @@</span>
 </div>
-<div class="stdin"><span class="ps1-path">trietpsu29@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>C           </b> [#########           ] 42.45%
-<b>JAVASCRIPT  </b> [#####               ] 20.65%
-<b>JAVA        </b> [###                 ] 11.97%
-<b>HTML        </b> [###                 ] 11.73%
-<b>C#          </b> [##                  ] 6.68 %
-<b>C++         </b> [#                   ] 3.99 %
-<b>SCSS        </b> [#                   ] 2.07 %
-<b>RUBY        </b> [#                   ] 0.47 %
+<div class="stdin"><span class="ps1-path">trietpsu29@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>C           </b> [#######             ] 33.11%
+<b>HTML        </b> [######              ] 27.38%
+<b>JAVASCRIPT  </b> [####                ] 19.09%
+<b>JAVA        </b> [##                  ] 9.33 %
+<b>C#          </b> [##                  ] 5.21 %
+<b>C++         </b> [#                   ] 3.11 %
+<b>SCSS        </b> [#                   ] 2.41 %
+<b>RUBY        </b> [#                   ] 0.36 %
 </div>
 
 
-<footer>Connection reset by 124.106.128.99</footer></pre>
+<footer>Connection reset by 196.193.229.167</footer></pre>
 
     </div>
     <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
